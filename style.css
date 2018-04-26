@@ -1,0 +1,190 @@
+/* Mobile First */
+
+/* General */
+
+body {
+    font-family: 'Open Sans';
+    background-color: #f9fafc;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    color: #69696a;
+    padding: 5px 0;
+}
+
+.head {
+    font-size: .75em;
+    font-weight: 800;
+}
+
+/* Buttons */
+
+.hire,
+.scroll {
+    width: 100%;
+    margin: 10px 5px;
+    padding: 5px 5px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 1em;
+}
+
+/* Paragraph */
+
+.company {
+    font-weight: 900;
+    font-size: 1.2em;
+    padding: 5px 0;
+}
+
+.paragraph {
+    border-left: 2px solid gray;
+    padding-left: 10px;
+    color: #69696a;
+    font-size: 1em;
+}
+
+/* Circles */
+
+.circles {
+    display: none;
+}
+
+.circle1 {
+    height: 225px;
+    width: 225px;
+    background-color: rgba(247, 136, 167, 0.6);
+    border-radius: 50%;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+
+.circle2 {
+    height: 150px;
+    width: 150px;
+    background-color: rgba(247, 193, 162, 0.7);
+    border-radius: 50%;
+    position: absolute;
+    right: 25px;
+    top: 200px;
+}
+
+.circle3 {
+    height: 115px;
+    width: 115px;
+    background-color: rgba(207, 130, 213, 0.6);
+    border-radius: 50%;
+    position: absolute;
+    right: 15px;
+    top: 100px;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .hire,
+    .scroll {
+        width: 80px;
+        height: 30px;
+        margin: 10px 5px;
+        padding: 5px 5px;
+        border-radius: 20px;
+        background-color: black;
+        color: white;
+        font-size: 1em;
+    }
+
+    .head {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .top {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+    }
+    
+    li {
+        margin: 15px;
+        padding: 10px;
+        font-size: .75em;
+    }
+
+    .hire {
+        width: auto;
+        margin: 10px 5px;
+        padding: 5px 15px;
+        border-radius: 20px;
+        background-color: black;
+        color: white;
+        font-size: .75em;
+    }
+
+    .middle {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .pinfo {
+        width: 50%;
+    }
+
+    .circles {
+        display: contents;
+        width: 50%;
+        position: relative;
+    }
+
+    .circle1 {
+        position: absolute;
+        right: 110px;
+    }
+
+    .circle2 {
+        position: absolute;
+        right: 25px;
+    }
+
+    .circle3 {
+        position: absolute;
+        right: 35px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .scroll {
+        width: auto;
+        margin: 50px 5px;
+        padding: 5px;
+        border-radius: 20px;
+        background-color: black;
+        color: white;
+        font-size: .75em;
+    }
+}
