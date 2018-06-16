@@ -39,7 +39,7 @@ li {
   color: white;
   font-size: 16px;
   padding: 5px;
-  width: 40%;
+  width: 100%;
   margin: 15px auto;
   outline: none;
 }
@@ -126,6 +126,4 @@ li {
   padding-left: 30px;
   padding-right: 15px;
 }
-
-
 }
